@@ -10,7 +10,7 @@ function App() {
         <p>
           This is <code>React</code> Box Controller.
         </p>
-    <p>Hello Musa Bukhari</p>
+    <p>Hello Musa</p>
       </header>
     </div>
   );
