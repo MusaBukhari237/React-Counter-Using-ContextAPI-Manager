@@ -6,7 +6,6 @@ function App() {
   var x = "Chicken";
   var y = "Karahi";
   var xy = x + " " + y ;
-  
   return (
     <div className="App">
       <h1>Hello Musa</h1>
