@@ -1,19 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Food from './Components/food'
 
 function App() {
+  var x = "Chicken";
+  var y = "Karahi";
+  var xy = x + " " + y ;
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is <code>React</code> Box Controller.
-        </p>
-    <p>Hello Musa</p>
-      </header>
+      <h1>Hello Musa</h1>
+      <Food foodname={xy}/>
     </div>
   );
-}
+};
+
+
 
 export default App;
