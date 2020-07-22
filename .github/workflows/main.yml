@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ scroll-bar.surge.sh --token ${{secrets.surge_token}}
+        run: surge ./app react-box-manager.surge.sh --token ${{secrets.surge_token}}
