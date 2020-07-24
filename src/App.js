@@ -1,16 +1,26 @@
 import React,{useState} from 'react';
 import './App.css';
-// import Food from './Components/food'
+import Count from './Components/count.js'
 
 function App() {
-  let [count,setcount] = useState(3);
-
+  let [count,setcount] = useState(0);
+  function Add1(){
+     setcount(++count)
+    }
+  function Minus1(){
+    setcount(--count)
+  }
+  function Reset(){
+    setcount(0)
+   }
   return (
     <div className="App">
-      <h1>Count : {count}</h1>
-
-      <button onClick={
-        () => setcount(++count)}>Hello Lets Add 1</button>
+      <Count countid={count}/>
+    <div class="buttons">
+      <button onClick={Add1}>Add 1</button>
+      <button onClick={Minus1}>Minus 1</button>
+      <button onClick={Reset}>Reset</button>
+    </div>
     </div>
   );
 };
