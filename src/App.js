@@ -1,15 +1,16 @@
 import React,{useState} from 'react';
 import './App.css';
-import Food from './Components/food'
+// import Food from './Components/food'
 
 function App() {
+  let [count,setcount] = useState(3);
 
   return (
-    let [count,setcount] = useState(1)
     <div className="App">
-      <h1>Hello Musa</h1>
-      <Food foodname={xy}/>
-      <button onclick={() => setcount(++count)}>Hello Lets Add 1</button>
+      <h1>Count : {count}</h1>
+
+      <button onClick={
+        () => setcount(++count)}>Hello Lets Add 1</button>
     </div>
   );
 };
