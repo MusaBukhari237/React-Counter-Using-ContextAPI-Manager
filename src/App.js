@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import ContextapiParent from "./Components/contextapi-parent";
-import PassContext from './Components/context-api-value';
+import ReducerApp from './Components/Reducer/reducer-app';
 
 function App() {
 
-    let counterval = useState(6); //[counterval,setcounterval]
-
   return (
-    <PassContext.Provider value={counterval}>
     <div className="App">
 
-    <ContextapiParent/>
+    <ReducerApp/>
 
     </div>
-    </PassContext.Provider>
   );
   };
 

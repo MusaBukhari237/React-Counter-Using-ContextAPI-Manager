@@ -1,7 +1,7 @@
 // Context Api And Pur Js Function Typing.
 import React, {useContext } from  'react';
 import ContextapiChild from './contextapi-child'
-import Context_value from './context-api-value'
+import Context_value from './contextapi-value'
 
 const Parent = () => {
     // let myname = useContext(Context_name);
@@ -16,7 +16,7 @@ const Parent = () => {
 
         <h2>I am Parent Component And i am Passing this Value '' to Child Component </h2>
         <ContextapiChild/>
-        <button onClick={UpdateCounter}>Add 1 in Child Count</button>
+        <button onClick={UpdateCounter}>Add 1 in Child Count From Parent</button>
 
         </div>
     );
