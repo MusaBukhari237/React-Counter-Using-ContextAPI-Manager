@@ -4,7 +4,7 @@ import ReducerValue from './reducer-value';
 
 function ReducerApp(){
 
-    let [state,dispatch] = useReducer(ReducerValue, 2);
+    let [state,dispatch] = createReducer(ReducerValue, 2);
     // console.log(state);
     function UpdateReduceCounter(){
         dispatch('INCREMENT');
@@ -21,3 +21,26 @@ function ReducerApp(){
 };
 
 export default ReducerApp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
