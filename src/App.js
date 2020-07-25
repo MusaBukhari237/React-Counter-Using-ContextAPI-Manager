@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Context_api_Parent from "./Components/contextapi-parent";
+import ContextapiParent from "./Components/contextapi-parent";
 import PassContext from './Components/context-api-value';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <PassContext.Provider value={'app musa'}>
     <div className="App">
 
-    <Context_api_Parent/>
+    <ContextapiParent/>
 
     </div>
     </PassContext.Provider>

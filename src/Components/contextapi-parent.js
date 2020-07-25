@@ -1,6 +1,6 @@
 // Context Api And Pur Js Function Typing.
 import React from  'react';
-import Context_api_Child from './contextapi-child'
+import ContextapiChild from './contextapi-child'
 // import Context_name from './context-api-value'
 
 const Parent = (props) => {
@@ -9,7 +9,7 @@ const Parent = (props) => {
         <div>
 
         <h2>I am Parent Component And i am Passing this Value '{props.myname}' to Child Component </h2>
-        <Context_api_Child/>
+        <ContextapiChild/>
 
         </div>
     );
