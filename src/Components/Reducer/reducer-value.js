@@ -1,5 +1,5 @@
 
-function ReducerApp(state , action){
+function ReducerValue(state , action){
   switch (action) {
       case 'INCREMENT':
         return state + 1
@@ -11,4 +11,4 @@ function ReducerApp(state , action){
   };
 };
 
-export default ReducerApp;
+export default ReducerValue;
