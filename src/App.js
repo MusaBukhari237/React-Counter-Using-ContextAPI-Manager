@@ -5,7 +5,7 @@ import PassContext from './Components/context-api-value';
 
 function App() {
 
-    let counterval = useState(6) //[counterval,setcounterval]
+    let counterval = useState(6); //[counterval,setcounterval]
 
   return (
     <PassContext.Provider value={counterval}>

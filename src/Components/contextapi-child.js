@@ -4,7 +4,7 @@ import Context_value from './context-api-value'
 function Child(props){
     // let myname = useContext(Context_value);
     let Count = useContext(Context_value);
-    console.log(Count);
+    console.log(Count[1]);
 
     function AddinCount(){
 
