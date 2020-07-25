@@ -3,16 +3,17 @@ import React , {useState} from "react";
 
 
 function Day_Night() {
-    let [islight,setislight] = useState(true);
+    let [light,setlight] = useState(true);
     function Light() {
-      setislight(!islight)
+      setlight(!light)
+      
     }
   
     return (  
       <div className="App">
 
-      <div className={`star ${islight ? "sun" : "moon"}`} ></div>
-      <button className="day_night" onClick={Light}>Lets Change the Light</button>
+  <div className={`star ${light ? "sun" : "moon"}`} ></div>
+      <button className="day_night" onClick={Light}>{`Turn into ${light ? 'Night' : 'Day'}`}</button>
 
       </div>
     );

@@ -72,11 +72,11 @@ button:active{
 .moon{
   background-color: #7c7777;
   border:#7c7777 5px solid;
-  box-shadow: 0 0 20px #7c7777;
+  box-shadow: 0 0 40px #7c7777;
 }
 
 .sun{
   background-color: #ccc900;
   border:#ccc900 5px solid;
-  box-shadow: 0 0 20px #ccc900;
+  box-shadow: 0 0 40px #ccc900;
 }

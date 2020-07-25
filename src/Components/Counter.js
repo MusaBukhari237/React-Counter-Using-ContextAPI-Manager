@@ -1,6 +1,6 @@
 // Counter With Passing Props Component
 import React,{useState} from 'react';
-import Count from './count.js'
+import Count from './sub-Counter.js'
 
 
 function Counter() {

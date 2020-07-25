@@ -1,16 +1,19 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
-// import Counter from "./Components/Counter"
+import Context_api_Parent from "./Components/contextapi-parent";
+import PassContext from './Components/context-api-value';
 
 function App() {
 
 
   return (
+    <PassContext.Provider value={'app musa'}>
     <div className="App">
 
-    <Counter/>
+    <Context_api_Parent/>
 
     </div>
+    </PassContext.Provider>
   );
   };
 
