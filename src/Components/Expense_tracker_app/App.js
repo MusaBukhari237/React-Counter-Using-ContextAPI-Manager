@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import Inittranshistory from './transContext';
 
-
 function App() {
 
     let transhistory = useContext(Inittranshistory);
