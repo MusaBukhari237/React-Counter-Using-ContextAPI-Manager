@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import ReducerApp from './Components/Reducer/reducer-app';
+import ExpenseTrackerLearn from './Components/Expense_tracker_app/App';
 
 function App() {
 
   return (
     <div className="App">
-
-    <ReducerApp/>
-
+    <ExpenseTrackerLearn/>
     </div>
   );
   };
