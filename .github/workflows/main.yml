@@ -20,9 +20,7 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Surge Token ${{secrets.surge_token}}
-
-    - name: Setup Node.js environment
+    - name: Setup Node.js environment ${{secrets.surge_token}}
       uses: actions/setup-node@v2-beta
       with: 
         version: 12
